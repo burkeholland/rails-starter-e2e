@@ -61,5 +61,5 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
 
-  config.hosts << "4ec0da39-42a3-4d8c-acd9-e43573cb3919-3000.apps.codespaces.githubusercontent.com"
+  config.hosts << /[A-Za-z0-9\-]+.apps.codespaces.githubusercontent.com/
 end
